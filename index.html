@@ -113,7 +113,7 @@
 								<h3 class="text-left text-primary font-weight-bold">Danh sách học viên</h3>
 							</div>
 							<div class="col-md-6 text-right">
-								<button class="btn btn-primary" id="btnThem" data-toggle="modal"
+								<button class="btn btn-primary" id="btnThemSV1" data-toggle="modal"
 									data-target="#myModalStudent">Thêm học viên</button>
 							</div>
 						</div>
@@ -143,11 +143,12 @@
 									<th>Toán</th>									
 									<th>Lý</th>
 									<th>Hóa</th>
+									<th>Điểm trung bình</th>
 									<th>Xếp loại</th>
 									<th><em class="fa fa-cog"></em></th>
 								</tr>
 							</thead>
-							<tbody id="tableDanhSach">
+							<tbody id="tableDanhSachSV">
 
 							</tbody>
 						</table>
@@ -174,7 +175,7 @@
 								<h3 class="text-left text-primary font-weight-bold">Danh sách nhân viên</h3>
 							</div>
 							<div class="col-md-6 text-right">
-								<button class="btn btn-primary" id="btnThem" data-toggle="modal"
+								<button class="btn btn-primary" id="btnThemNV1" data-toggle="modal"
 									data-target="#myModalEmployee">Thêm nhân viên</button>
 							</div>
 						</div>
@@ -207,7 +208,7 @@
 									<th><em class="fa fa-cog"></em></th>
 								</tr>
 							</thead>
-							<tbody id="tableDanhSach">
+							<tbody id="tableDanhSachNV">
 
 							</tbody>
 						</table>
@@ -234,7 +235,7 @@
 								<h3 class="text-left text-primary font-weight-bold">Danh sách khách hàng</h3>
 							</div>
 							<div class="col-md-6 text-right">
-								<button class="btn btn-primary" id="btnThem" data-toggle="modal"
+								<button class="btn btn-primary" id="btnThemKH1" data-toggle="modal"
 									data-target="#myModalCustomer">Thêm khách hàng</button>
 							</div>
 						</div>
@@ -267,7 +268,7 @@
 									<th><em class="fa fa-cog"></em></th>
 								</tr>
 							</thead>
-							<tbody id="tableDanhSach">
+							<tbody id="tableDanhSachKH">
 
 							</tbody>
 						</table>
@@ -395,7 +396,7 @@
 
 				<!-- Modal footer -->
 				<div class="modal-footer" id="modal-footer">
-					<button id="btnThemSV" type="button" class="btn btn-success" onclick="themSinhVien()">Thêm người dùng</button>
+					<button id="btnThemSV2" type="button" class="btn btn-success">Thêm người dùng</button>
 					<button id="btnCapNhatSV" type="button" class="btn btn-success" onclick="capNhatSV()">Cập nhật</button>
 					<button id="btnDong" type="button" class="btn btn-danger" data-dismiss="modal">Đóng</button>
 				</div>
@@ -499,7 +500,7 @@
 
 				<!-- Modal footer -->
 				<div class="modal-footer" id="modal-footer">
-					<button id="btnThemNV" type="button" class="btn btn-success" onclick="themNhanVien()">Thêm người dùng</button>
+					<button id="btnThemNV2" type="button" class="btn btn-success">Thêm người dùng</button>
 					<button id="btnCapNhatNV" type="button" class="btn btn-success" onclick="capNhatNV()">Cập nhật</button>
 					<button id="btnDong" type="button" class="btn btn-danger" data-dismiss="modal">Đóng</button>
 				</div>
@@ -615,7 +616,7 @@
 
 				<!-- Modal footer -->
 				<div class="modal-footer" id="modal-footer">
-					<button id="btnThemKH" type="button" class="btn btn-success" onclick="themKhachHang()">Thêm người dùng</button>
+					<button id="btnThemKH2" type="button" class="btn btn-success" >Thêm người dùng</button>
 					<button id="btnCapNhatKH" type="button" class="btn btn-success" onclick="capNhatKH()">Cập nhật</button>
 					<button id="btnDong" type="button" class="btn btn-danger" data-dismiss="modal">Đóng</button>
 				</div>
