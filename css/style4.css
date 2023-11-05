@@ -203,6 +203,13 @@ a.article, a.article:hover {
     margin-bottom: 20px;
 }
 
+.dropdown {
+    margin-bottom: 20px;
+}
+
+.dropdown .dropdown-item{
+    cursor: pointer;
+}
 
 /* ---------------------------------------------------
     MEDIAQUERIES

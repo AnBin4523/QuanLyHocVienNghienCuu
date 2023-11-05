@@ -10,14 +10,4 @@ export default class Employee extends Person {
     calSalary () {
         return this.numberDay * this.salary;
     }
-
-    xepLoaiNhanVien () {
-        if (this.numberDay >= 30) {
-            return this.loaiNhanVien = "Giỏi";
-        } else if (this.numberDay >= 20 && this.numberDay < 30) {
-            return this.loaiNhanVien = "Khá";
-        } else {
-            return this.loaiNhanVien = "Trung bình";
-        }
-    }
 }

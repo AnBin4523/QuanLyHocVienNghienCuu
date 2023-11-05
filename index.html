@@ -103,8 +103,22 @@
 				</div>
 			</nav>
 
+			<!-- Dropdown table-->
+			<div id="root" class="container">
+				<div class="dropdown">
+					<button class="btn btn-success dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+					  	Table
+					</button>
+					<div class="dropdown-menu">
+					  	<button class="dropdown-item tableName" type="button" value="student">Table Student</button>
+					  	<button class="dropdown-item tableName" type="button" value="employee">Table Employee</button>
+					  	<button class="dropdown-item tableName" type="button" value="customer">Table Customer</button>
+					</div>
+				</div>
+			</div>
+
 			<!-- Student -->
-			<div class="container">
+			<div class="container student">
 				<div class="card text-center">
 					<!-- Header -->
 					<div class="card-header myCardHeader">
@@ -121,16 +135,6 @@
 
 					<!-- Body -->
 					<div class="card-body">
-						<div class="row mb-3">
-							<div class="col">
-								<div class="input-group">
-									<input type="text" class="form-control" placeholder="Loại học viên" id="searchName">
-									<div class="input-group-prepend">
-										<span class="input-group-text" id="btnTimNV"><i class="fa fa-search"></i></span>
-									</div>
-								</div>
-							</div>
-						</div>
 						<table class="table table-bordered table-hover myTable">
 							<thead class="text-primary">
 								<tr>
@@ -144,7 +148,6 @@
 									<th>Lý</th>
 									<th>Hóa</th>
 									<th>Điểm trung bình</th>
-									<th>Xếp loại</th>
 									<th><em class="fa fa-cog"></em></th>
 								</tr>
 							</thead>
@@ -166,7 +169,7 @@
 			</div>
 
 			<!-- Employee -->
-			<div class="container">
+			<div class="container employee">
 				<div class="card text-center">
 					<!-- Header -->
 					<div class="card-header myCardHeader">
@@ -183,16 +186,6 @@
 
 					<!-- Body -->
 					<div class="card-body">
-						<div class="row mb-3">
-							<div class="col">
-								<div class="input-group">
-									<input type="text" class="form-control" placeholder="Loại nhân viên" id="searchName">
-									<div class="input-group-prepend">
-										<span class="input-group-text" id="btnTimNV"><i class="fa fa-search"></i></span>
-									</div>
-								</div>
-							</div>
-						</div>
 						<table class="table table-bordered table-hover myTable">
 							<thead class="text-primary">
 								<tr>
@@ -204,7 +197,6 @@
 									<th>Địa chỉ</th>
 									<th>Số ngày làm</th>									
 									<th>Lương theo ngày</th>
-									<th>Xếp loại</th>
 									<th><em class="fa fa-cog"></em></th>
 								</tr>
 							</thead>
@@ -226,7 +218,7 @@
 			</div>
 
 			<!-- Customer -->
-			<div class="container">
+			<div class="container customer">
 				<div class="card text-center">
 					<!-- Header -->
 					<div class="card-header myCardHeader">
@@ -243,16 +235,6 @@
 
 					<!-- Body -->
 					<div class="card-body">
-						<div class="row mb-3">
-							<div class="col">
-								<div class="input-group">
-									<input type="text" class="form-control" placeholder="Loại đánh giá" id="searchName">
-									<div class="input-group-prepend">
-										<span class="input-group-text" id="btnTimNV"><i class="fa fa-search"></i></span>
-									</div>
-								</div>
-							</div>
-						</div>
 						<table class="table table-bordered table-hover myTable">
 							<thead class="text-primary">
 								<tr>
@@ -287,7 +269,6 @@
 
 		</div>
 	</div>
-
 
 	<!-- The modal student-->
 	<div class="modal fade" id="myModalStudent">

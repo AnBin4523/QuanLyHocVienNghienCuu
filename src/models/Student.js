@@ -12,14 +12,4 @@ export default class Student extends Person {
     calAverage () {
         return this.diemTB = (Number(this.math) + Number(this.phy) + Number(this.chem)) / 3;
     }
-
-    xepLoaiSinhVien () {
-        if (this.diemTB >= 8) {
-            return this.loaiSinhVien = "Giỏi";
-        } else if (this.diemTB < 8 && this.diemTB > 6) {
-            return this.loaiSinhVien = "Khá";
-        } else {
-            return this.loaiSinhVien = "Trung bình";
-        }
-    }
 }
