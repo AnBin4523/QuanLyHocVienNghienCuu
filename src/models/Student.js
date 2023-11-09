@@ -6,7 +6,6 @@ export default class Student extends Person {
         this.phy = phy;
         this.chem = chem;
         this.diemTB = 0;
-        this.loaiSinhVien = "";
     }
 
     calAverage () {
